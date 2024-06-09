@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Caesar-Cipher",
-    "slug": "Caesar-Cipher",
+    "name": "Caesar Cipher",
+    "slug": "caesar-cipher",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#7F2122"
     },
     "ios": {
       "supportsTablet": true
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.its_arnold.caesarcipher"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "999a6cf8-9258-4644-bbf2-88e7029b0ea3"
+      }
+    },
+    "owner": "its_arnold"
   }
 }
